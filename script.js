@@ -36,7 +36,7 @@ $('.dot:nth-child(1)').click(function(){
       });
   }
   $("#switch1").click(function(){
-    if ($('#switch1').is(':checked')){
+    if ($('#switch1').is(':not checked')){
       $('.modal').unwrap('<div class="mask"></div>');
       $('.modal').hide();
       $('.modal').addClass('nobox');
