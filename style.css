@@ -48,6 +48,19 @@
   section:nth-child(7) {
     background: #ffcc00;
   }
+  section:nth-child(8) {
+    background: red;
+  }
+section:nth-child(9) {background: orange;}
+section:nth-child(10) {background: yellow;}
+section:nth-child(11) {background: green;}
+section:nth-child(12) {background: blue;}
+section:nth-child(13) {background: indigo;}
+section:nth-child(14) {background: violet;}
+section:nth-child(15) {background: teal;}
+section:nth-child(16) {background: gray;}
+section:nth-child(17) {background:  purple;}
+section:nth-child(18) {background: darkcyan;}  
   .nav__wrapper {
     position: fixed;
     height: 100%;
@@ -67,7 +80,7 @@
     margin: 0 0 100px 30px;
   }
   .nav__counter {
-    font-size: 24px;
+    overflow: auto;
     -webkit-transition: all 0.15s ease-out;
     -o-transition: all 0.15s ease-out;
     transition: all 0.15s ease-out;
