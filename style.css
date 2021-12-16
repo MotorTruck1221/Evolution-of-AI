@@ -69,13 +69,13 @@ Main Components
 }
 .cd-horizontal-timeline .events-wrapper::before {
   left: 0;
-  background-image: -webkit-linear-gradient( left , #000000, rgba(255, 0, 0, 0));
-  background-image: linear-gradient(to right, #000000, rgba(255, 0, 0, 0));
+  background-image: -webkit-linear-gradient( left , #000000, rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to right, #000000, rgba(0, 0, 0, 0));
 }
 .cd-horizontal-timeline .events-wrapper::after {
   right: 0;
-  background-image: -webkit-linear-gradient( right , #000000, rgba(248, 248, 248, 0));
-  background-image: linear-gradient(to left, #000000, rgba(248, 248, 248, 0));
+  background-image: -webkit-linear-gradient( right , #000000, rgba(0,0,0,0));
+  background-image: linear-gradient(to left, #000000, rgba(0, 0,0, 0));
 }
 .cd-horizontal-timeline .events {
   /* this is the grey line/timeline */
